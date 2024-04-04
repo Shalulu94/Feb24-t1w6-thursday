@@ -16,9 +16,9 @@ n = int(input("Enter a number between 2 and 100: "))
 if n % 2:
     print("Weird")
 else:
-    if n >= 2:
+    if n <= 5:
         print("Not Weird")
-    elif n <= 6:
+    elif n <= 20:
         print("Weird")
     else:
         print("Not Weird")
